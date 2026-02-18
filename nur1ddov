@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>nur1dd1nov 👨‍💻</title>
+    <style>
+        *,
+        html {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .box img {
+            width: 20px;
+        }
+        header {
+            display: flex;
+            justify-content: space-between;
+            border-bottom: 2px solid rgb(226, 226, 226);
+            position: fixed;
+            top: 0;
+            right:0;
+            left: 0;
+            height: 90px;
+            background-color: white;
+        }
+        .box {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+            padding-right: 130px;
+        }
+        .say{
+            padding: 20px;
+            padding-left: 200px;
+        }
+        .rasm{
+            border: none;
+            background-color: green;
+            border-radius: 20px;
+            width: 140px;
+            height: 60px;
+            color: white;
+            font-size: 20px;
+        }
+        .hello{
+            border: none;
+            background-color: green;
+            width: 60px;
+            height: 60px;
+            border-radius: 20px;
+        }
+        .sayy{
+            background-color: white;
+            border: none;
+            width: 40px;
+            height: 40px;
+        }
+        .ota{
+            font-size: 35px;
+            padding-left: 200px;
+        }
+        .bola{
+            border: none;
+            width: 300px;
+            height: 80px;
+            background-color: green;
+            color: white;
+            border-radius: 30px;
+            margin-top: 20px;
+            cursor: pointer;
+        }
+        .bola:hover{
+            background-color: rgb(183, 255, 38);
+        }
+        .ona{
+            margin-left: 250px;
+        }
+        .hey{
+            background-color: rgb(240, 240, 240);
+            border-right: 10px solid green;
+            width: 420px;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <a href="./index.html">
+            <img class="say" src="https://static.tildacdn.one/tild6237-6363-4534-b934-396334646532/Group_338.svg" alt="">
+        </a>
+        <div class="box">
+            <h3 style="color: grey;font-size: 23px;">+998 78 777 07 07</h3>
+            <button class="rasm">Bog'lanish</button>
+            <button class="hello">
+                <img style="background-color: green;color: white;" src="https://avatars.mds.yandex.net/i?id=332a792dfc25306ada9f0f59cbd487da78c37161-5246120-images-thumbs&n=13"alt="">
+            </button>
+            <button class="sayy">
+                <img src="https://avatars.mds.yandex.net/i?id=fde90962597574bd9725af8892bf2aed50082153-5453486-images-thumbs&n=13"alt="">
+            </button>
+        </div>
+    </header>
+    <div style="padding-top: 200px;">
+        <div style="display: flex;">
+            <div class="ota">
+                <p class="hey" style="font-size: 20px;"><span style="color: green;">"Canbridge LC"</span> o'quv markazidan yangi loyiha</p>
+                <h1 style="padding-top: 10px;padding-bottom: 10px;"><span style="color: green;">Jahon</span> <span style="color: rgb(9, 0, 77);">tajribasiga</span>  <br> <span style="color: rgb(0, 0, 77);"> asoslangan </span><br><span style="color: green;"> milliy </span> <span style="color: rgb(0, 0, 77);">ta'lim!</span> </h1>
+                <p style="line-height: 1.2;color: grey;font-size: 20px;">Jahongir Po'latov - Cambridge <br> LC, Modme, Cambridge Kidzzz va <br> Jahon School asoschisi, ta'lim sohasida <br> innovatsion tashabbuskor.</p>
+                <button class="bola"> <span style="font-size: 20px;">Ma'lumot olish</span></button>
+            </div>
+            <div class="ona">
+                <img src="https://optim.tildacdn.one/tild3065-3561-4031-b631-656134383737/-/resize/487x/-/format/webp/Mask_group-min.png.webp" alt="">
+            </div>
+        </div>
+    </div>
+</body>
+</html>
