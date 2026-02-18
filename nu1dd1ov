@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *,html{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        header{
+            background-color: rgb(116, 198, 157);
+        }
+        .hey:hover{
+            color: rgb(214, 214, 214);
+            text-decoration: underline;
+        }
+        .hello:hover{
+            background-color: rgb(232, 232, 232);
+        }
+        .ota{
+            margin-left: 150px;
+            margin-top: 35px;
+            cursor: pointer;
+        }
+        .ona{
+            display: flex;
+            gap: 30px;
+            margin-left: 630px;
+            font-size: 20px;
+            margin-top: 50px;
+            color: white;
+        }
+        .oo{
+            color: white;
+            text-decoration: none;
+        }
+        .aa{
+            display: flex;
+            gap: 150px;
+        }
+        .pp{
+            color: white;
+            margin-top: 170px;
+            font-size: 22px;
+            margin-left: 150px;
+            margin-bottom: 20px;
+        }
+        .ll{
+            color: white;
+            font-size: 35px;
+            margin-left: 150px;
+            margin-bottom: 20px;
+        }
+        .p{
+            color: white;
+            margin-left: 150px;
+            margin-bottom: 20px;
+        }
+        .button{
+            margin-left: 150px;
+            width: 130px;height: 50px;
+            border: none;
+            background-color: white;
+            border-radius: 10px;
+            margin-bottom: 30px;
+            font-size: 15px;
+            font-size: 17px;
+        }
+        .img{
+            margin-top: 100px;
+            margin-bottom: 99px;
+        }
+        .bb{
+            color: rgb(116, 198, 157);
+            text-align: center;
+            margin-top: 50px;
+        }
+        .h{
+            text-align: center;
+            margin-top: 10px;
+            font-size: 40px;
+            margin-bottom: 20px;
+        }
+        .ol{
+            font-size: 20px;
+            text-align: center;
+        }
+        .rasmlar{
+            display: flex;
+            gap: 50px;
+            margin-top: 20px;
+            margin-left: 165px;
+            margin-bottom: 40px;
+        }
+        .nnn{
+            color: white;
+            background-color: black;
+            border: none;
+            width: 120px;
+            height: 45px;
+            border-radius: 10px;
+            margin-left: 650px;
+            margin-bottom: 40px;
+            font-size: 17px;
+        }
+        .gg{
+            display: flex;
+            gap: 100px;
+        }
+        .ooq{
+            margin-left: 120px;
+            margin-top: 50px;
+        }
+        .hg{
+            margin-top: 100px;
+            margin-bottom: 20px;
+            font-size: 40px;
+        }
+        .gh{
+            font-size: 17px;
+            margin-bottom: 20px;
+        }
+        .hy{
+            color: white;
+            background-color: black;
+            border: none;
+            width: 120px;
+            height: 45px;
+            border-radius: 10px;
+            font-size: 17px;
+        }
+        .hy:hover{
+            background-color: rgb(152, 152, 152);
+        }
+        .hyy:hover{
+            background-color: rgb(152, 152, 152);
+        }
+        .nnn:hover{
+            background-color: rgb(152, 152, 152);
+        }
+        .button:hover{
+            background-color: rgb(200, 200, 200);
+            cursor: pointer;
+        }
+        .nrt{
+            display: flex;
+            gap: 60px;
+        }
+        .bu{
+            margin-top: 200px;
+            margin-left: 150px;
+            font-size: 40px;
+            line-height: 1.5;
+            margin-bottom: 20px;
+        }
+        .pe{
+            margin-left: 150px;
+            font-size: 17px;
+            margin-bottom: 20px;
+        }
+        .hyy{
+            color: white;
+            background-color: black;
+            border: none;
+            width: 120px;
+            height: 45px;
+            margin-left: 150px;
+            border-radius: 10px;
+            font-size: 17px;
+        }
+        .aqqa{
+            margin-top: 50px;
+            margin-left: 40px;
+        }
+        .ou{
+            margin-left: 100px;
+            margin-top: 100px;
+            margin-bottom: 50px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div style="display: flex;">
+            <div>
+                <img class="ota" src="https://start-up-flax.vercel.app/images/logo-white.svg" alt="">
+            </div>
+            <div class="ona">
+                <a class="oo" href="https://start-up-flax.vercel.app/index.html">
+                    <p class="hey">Home</p>
+                </a>
+                <a class="oo" href="https://start-up-flax.vercel.app/portfolio.html">
+                    <p class="hey">Portfolio</p>
+                </a>
+                <a class="oo" href="https://start-up-flax.vercel.app/services.html">
+                    <p class="hey">Services</p>
+                </a>
+                <a class="oo" href="https://start-up-flax.vercel.app/contact.html">
+                    <p class="hey">Contact</p>
+                </a>
+            </div>
+        </div>
+        <div class="aa">
+            <div>
+                <h5 class="pp">W e l c o m e</h5>
+                <h1 class="ll">Unlock the future, Innovative <br> solutions for bright minds</h1>
+                <p class="p">We transform creativity into reality, building solutions that inspire <br> and drive success. Discover innovation with us today. Explore endless <br> possibilities with our expertise.</p>
+                <button class="button">Explore</button>
+            </div>
+            <div>
+                <img class="img" src="https://start-up-flax.vercel.app/images/hero-group.svg" alt="">
+            </div>
+        </div>
+    </header>
+    <div>
+        <div>
+            <h5 class="bb">P A R T N E R S</h5>
+            <h1 class="h">Innovating for a Brighter Future</h1>
+            <p class="ol">We collaborate with industry leaders to bring cutting-edge solutions to life.</p>
+            <div class="rasmlar">
+                <img src="https://start-up-flax.vercel.app/images/partners/google.svg" alt="">
+                <img src="https://start-up-flax.vercel.app/images/partners/microsoft.png" alt="">
+                <img src="https://start-up-flax.vercel.app/images/partners/airbnb.svg" alt="">
+                <img src="https://start-up-flax.vercel.app/images/partners/facebook.svg" alt="">
+                <img src="https://start-up-flax.vercel.app/images/partners/spotify.svg" alt="">
+            </div>
+            <button class="nnn">Learn more</button>
+        </div>
+    </div>
+    <div class="gg">
+        <div>
+            <img class="ooq" src="https://start-up-flax.vercel.app/images/contact.svg" alt="">
+        </div>
+        <div>
+            <h1 class="hg">Connecting People, <br> Empowering Ideas</h1>
+            <p class="gh">Lorem ipsum, dolor sit amet consectetur adipisicing elit. <br> Suscipit nemo hic quos, ab, dolor aperiam nobis cum est <br> eos error ipsum, voluptate culpa nesciunt delectus iste?</p>
+            <button class="hy">Learn More</button>
+        </div>
+    </div>
+    <div class="nrt">
+        <div class="aqqa">
+            <h1 class="bu">Seamless Digital <br> Transformation</h1>
+            <p class="pe">Lorem ipsum, dolor sit amet consectetur adipisicing <br> elit. Suscipit nemo hic quos, ab, dolor aperiam nobis <br> cum est eos error ipsum, voluptate culpa nesciunt delectus iste?</p>
+            <button class="hyy">Learn More</button>
+        </div>
+        <div>
+            <img class="ou" src="https://start-up-flax.vercel.app/images/security.svg" alt="">
+        </div>
+    </div>
+</body>
+</html>
