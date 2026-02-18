@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *,
+        html{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        header{
+            box-shadow: 2px 2px 2px rgba(163, 163, 163);
+            justify-content: space-between;
+            display: flex;
+            height: 100px;
+            top: 0;
+            left: 0;
+            right: 0;
+            position: fixed;
+            background-color: white;
+        }
+        .rasm{
+            width: 290px;
+            height: 50px;
+            padding-left: 130px;
+            margin-top: 20px;
+        }
+        .rasmcha{
+            border: none;
+            width: 100px;
+        }
+        .ona{
+            display: flex;
+            gap: 20px;
+            font-size: 20px;
+            padding-top: 35px;
+            margin-right: 50px;
+        }
+        .hay{
+            width: 50px;
+            height: 30px;
+            border: none;
+            font-size: 20px;
+            padding-top: 30px;
+        }
+        .sey{
+            width: 150px;
+            height: 40px;
+            border: none;
+            background-color: rgb(255, 193, 47);
+            border-radius: 10px;
+            margin-top: 26px;
+            margin-right: 100px;
+            color: white;
+            font-size: 15px;
+        }
+        .sey:hover{
+            width: 153px;
+            height: 43px;
+        }
+        .hh1{
+            font-size: 70px;
+        }
+        .ota{
+            width: 230px;
+            height: 70px;
+            border: none;
+            border-radius: 7px;
+            background-color: rgb(61, 61, 255);
+            color: white;
+            margin-top: 50px;
+            font-size: 20px;
+        }
+        .ota:hover{
+            background-color: rgb(247, 164, 47);
+            cursor: pointer;
+        }
+        .bola{
+            margin-left: 120px;
+            margin-top: 160px
+        }
+        .salom{
+            background-color: rgb(216, 216, 216);
+            width: 220px;
+            height: 140px;
+            border: 2px solid blue;
+            border-radius: 15px;
+            font-size: 30px;
+            padding-left: 20px;
+            padding-top: 15px;
+            margin-left: 70px;
+        }
+        .salom:hover{
+            border: 2px solid gold;
+        }
+        .ol:hover{
+            color: gold;
+        }
+        .sayying{
+            padding-top: 60px;
+            padding-left: 500px;
+            font-size: 60px;
+        }
+        .ranaldo{
+            width: 700px;
+            padding-top: 90px;
+            padding-left: 100px;
+        }
+        .ooo{
+            padding-top: 100px;
+            font-size: 50px;
+            padding-left: 100px;
+        }
+        .lll{
+            font-size: 17px;
+            padding-left: 200px;
+            padding-top: 20px;
+        }
+        .ikki{
+            width: 550px;
+            margin-left: 300px;
+            padding-top: 200px;
+            padding-bottom: 100px;
+        }
+        .ikkinchi{
+            color: rgb(75,75,225);
+            font-size: 45px;
+            padding-left: 100px;
+            padding-top: 50px;
+            padding-bottom: 30px;
+        }
+        .lsl{
+            font-size: 17px;
+            padding-left: 100px;
+        }
+        .ranaldoo{
+            width: 600px;
+            padding-top: 90px;
+            padding-left: 100px;
+        }
+        .kurslar{
+            width: 40px;
+            height: 40px;
+            border-radius: 20px;
+        }
+        .oso{
+            background-color: rgb(223, 223, 223);
+            width: 400px;
+            height: 200px;
+            margin-left:50px;
+            border-radius: 10px;
+            margin-top: 100px;
+            box-shadow: 2px 2px 2px rgba(0,0,0,1);
+        }
+        .key:hover{
+            color: gold;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div>
+            <a href="./indexx.html">
+                <img class="rasm" src="https://www.ilmla.uz/photos/Ilmla-logo.png" alt="">
+            </a>
+        </div>
+        <div class="ona">
+            <p class="key">Kurslar⬇</p>
+            <p class="key" style="margin-top: 5px;">Afzalliklar</p>
+            <p class="key" style="margin-top: 5px;">jamoamiz</p>
+            <p class="key" style="margin-top: 5px;">Aloqa</p>
+        </div>
+        <div style="display: flex;gap: 15px;">
+            <p class="hay">🌑</p>
+            <button class="sey">+988 88 093 33 39</button>
+        </div>
+    </header>
+    <div style="display: flex;">
+        <div class="bola">
+            <h1 class="hh1">Ilmla - <br>bu <span style="color: rgb(61, 61, 243);">Ishonchli</span> <br>ta'lim maskani</h1>
+            <p>Urgutdagi #1 <span style="color: gold;">dasturlash</span> va <span style="color: gold;">ingliz tili</span> kurslari</p>
+            <a href="https://www.ilmla.uz/">
+                    <button class="ota">Biz Bilan Bog'laning✨</button>
+            </a>
+        </div>
+        <div>
+            <img style="margin-top: 80px;margin-left: 260px;" src="https://www.ilmla.uz/photos/baner/bl.png" alt="">
+        </div>
+    </div>
+    <div style="display: flex;gap: 80px;margin-left: 50px;">
+        <div class="salom">
+            <h3 class="ol">400+</h3>
+            <p style="padding-top: 20px;">O'quvchilar</p>
+        </div>
+        <div class="salom">
+            <h3 class="ol">5+</h3>
+            <p style="padding-top: 20px;">Yillik Tajriba</p>
+        </div>
+        <div class="salom">
+            <h3 class="ol">10+</h3>
+            <p style="padding-top: 20px;">Grant sohiblari</p>
+        </div>
+        <div class="salom">
+            <h3 class="ol">7+</h3>
+            <p style="padding-top: 20px;">O'qituvchilar</p>
+        </div>
+    </div>
+    <div>
+        <div>
+            <h1 class="sayying">Nega o'quvchilar bizni <br> <span style="padding-left: 70px;">tanlashmoqda?</span></h1>
+        </div>
+        <div style="display: flex;">
+            <img class="ranaldo" style="padding-bottom: 300px;" src="https://www.ilmla.uz/photos/talim.svg" alt="">
+            <div>
+                <h1 class="ooo" style="color: rgb(70, 70, 255);padding-left: 200px;">Sifatli ta'lim</h1>
+                <p class="lll">Ilmlada siz <span style="color: gold;">xalqaro darajadagi</span>  dasturchi bo'lish uchun <br> ta'lim olasiz. Chunki, o'qituvchilar va Ilmla jamoasi <span style="color: gold;">xalqaro <br> darajadagi mutaxasslardir.</span> Sizga eng zamonaviy texnologiyalar <br> asosida professional dasturchi bo'lishingiz uchun bozor talablariga <br> mos ilm va ko'nikmalar o'rgatiladi.</p>
+            </div>
+        </div>
+        <div style="display: flex;">
+            <div>
+                <h1 class="ikkinchi" style="padding-top: 200px;">Co-working hududlar</h1>
+                <p class="lsl">Ilmlada <span style="color: gold;">“co-working”</span>  hududlarda darsdan tashqari amaliyot qilishingiz <br> mumkin. Bu yerda do'stlaringiz bilan bilimlaringizni mustahkamlashingiz <br> hamda yangi bilimlar o'rganishingiz mumkin. <span style="color: gold;">“co-working”</span> hududlar <br> sizga dostlar bilan fikr almashib, dunyoqarashingizni yanada boyitishga <br> yordam beradi.</p>
+            </div>
+            <img class="ikki" src="https://www.ilmla.uz/photos/co-working.svg" alt="">
+        </div>
+           <div style="display: flex;gap: 50px;">
+            <img class="ranaldoo" src="https://www.ilmla.uz/photos/kutubxona.svg" alt="">
+            <div style="padding-top: 150px;padding-left: 50px;">
+            <h1 class="ooo" style="color: rgb(70, 70, 255);padding-top: 100px;padding-left: 200px;">Kutubxona</h1>
+        <p class="lll">Ilmlada turli janrlarda yozilgan eng mashhur kitoblarni <span style="color: gold;">bepul</span> <br>  o'qish imkoniyatiga egasiz. <span style="color: gold;">1000 dan ortiq</span> turli mavzulardagi <br> kitoblarni xohlasangiz Ilmlada, xohlasangiz o'z uyingizga olib <br> ketishingiz mumkin.</p>
+    </div>
+    </div>
+        <div style="display: flex;">
+            <div style="padding-top: 200px;">
+                <h1 class="ikkinchi" style="padding-top: 60px;">Tadbirlar</h1>
+                <p class="lsl">Ilmlada nafaqat ilm olishingiz, balki turli xil <span style="color: gold;">ko'ngilochar</span> <br> va <span style="color: gold;">ilmiy tadbirlarda</span> ishtirok etishingiz mumkin. Turli xil <br>  masterklasslar va mehmon suhbatlari shular jumlasidandir.</p>
+            </div>
+            <img class="ikki" src="https://www.ilmla.uz/photos/co-working.svg" alt="">
+        </div>
+</body>
+</html>
